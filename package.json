@@ -1,0 +1,34 @@
+{
+  "name": "pure-functional-node",
+  "version": "0.0.1",
+  "description": "A fun re-implementation of common pre-existing JavaScript functionalities using pure functionall programming approach. In JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erocrizs/pure-functional-node.git"
+  },
+  "author": "Aemielvin Loremia <aemielvin.loremia@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/erocrizs/pure-functional-node/issues"
+  },
+  "homepage": "https://github.com/erocrizs/pure-functional-node#readme",
+  "dependencies": {
+    "app-root-path": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "grunt": "^1.0.4",
+    "grunt-eslint": "^21.0.0",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^6.0.2",
+    "sinon": "^7.3.1"
+  }
+}
